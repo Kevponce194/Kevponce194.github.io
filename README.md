@@ -1,9 +1,28 @@
 # Kevponce194.github.io
 
-**Thanks for stopping by and taking a look.**
+**A Personal web Page**
 
-There is ton about me I'd like to share with you. I have put together a cross-section of my carrer, of where I have been and where I still want to go. There are plenty of links but they don't tell the whole story. If you would like to speak to me directly I would welcome the contact.
+**Goals:** 
+To build a web site to showcase my talent and experience.
 
-Thanks again and I looking forward to hearing from you.
+**Tasks:**
 
-Kevin
+- [ ] Create three html pages
+  1. index.html
+  2. portfolio.html
+  3. contact.html
+- [ ] A logical flow of html elements
+- [ ] All links are workng
+- [ ] Title is logical
+- [ ] Images have alt tags (except image in CSS)
+- [ ] CSS selectors and properties are efficient
+
+**Additional considerations:**
+
+- [ ] Provide links to Github repo and Github pages
+    * **wk1hw repo:** https://github.com/Kevponce194/Kevponce194.github.io/tree/master
+    * **GitHub Pages:** https://kevponce194.github.io/
+- [ ] Continue git command line executions
+
+**Additional enhancements:**
+* ???
