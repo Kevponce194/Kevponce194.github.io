@@ -1,0 +1,120 @@
+/* .baseBrown {
+    color: rgb(82, 35, 08)
+} */
+
+/* .container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+} */
+
+* {
+    outline: solid 1px red;
+}
+
+body {
+    background: url(../images/oldWorldBkgd.png) no-repeat center center fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover; */
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.nav-link {
+    display: inline;
+}
+
+/* .navbar-light {
+    background-color: rgb(82, 35, 08);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+} */
+
+a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a:focus {
+    color: rgb(146, 132, 100);
+}
+
+a:active {
+    color: black;
+}
+
+.bg-dark {
+    background-color: rgb(82, 35, 08) !important;
+}
+
+.row.nameRow {
+    position: relative; 
+}
+
+.myName {
+    font-weight: 800;
+    font-size: 2.75rem;
+    color: rgb(82, 35, 08);
+    text-align: right;
+    padding: 1rem 1rem 1rem 0;
+    align-self: flex-end;
+}
+
+.mySubhead {
+    font-weight: 800;
+    font-size: 1.75rem;
+    color: rgb(82, 35, 08);
+    text-align: left;
+    padding: 1rem;
+    align-self: flex-end;
+}
+
+p {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: rgb(82, 35, 08);
+    line-height: 150%;
+    padding: 1rem 0 1rem 0;
+}
+
+img {
+    border: solid 3px  rgb(82, 35, 08) ;
+    
+}
+
+.myImg {
+    position: relative;
+    text-align: right;
+}
+
+.myTitles {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: rgb(82, 35, 08);
+    line-height: 160%;
+}
+
+ul.myTitles li:before {
+    content: "• ";
+    color: rgb(82, 35, 08);
+}
+
+.img-fluid {
+    width: 75%;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+.blue {
+    background-color: blue;
+  
+}
