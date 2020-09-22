@@ -2,11 +2,6 @@
     color: rgb(82, 35, 08)
 } */
 
-/* .container-fluid {
-    margin-left: 0;
-    margin-right: 0;
-} */
-
 /* * {
     outline: solid 1px red;
 } */
@@ -30,31 +25,24 @@ body {
     display: inline;
 }
 
-/* .navbar-light {
-    background-color: rgb(82, 35, 08);
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-} */
-
-a:hover {
+.navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.6);
 }
 
-a:focus {
-    color: rgb(146, 132, 100);
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.3);
 }
 
-a:active {
-    color: black;
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: white;
 }
 
 .bg-dark {
     background-color: rgb(82, 35, 08) !important;
-}
-
-.row.nameRow {
-    position: relative; 
 }
 
 .myName {
@@ -108,3 +96,4 @@ ul.myTitles li:before {
 .img-fluid {
     width: 75%;
 }
+
