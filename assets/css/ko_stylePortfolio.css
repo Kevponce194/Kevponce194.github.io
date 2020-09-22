@@ -2,14 +2,9 @@
     color: rgb(82, 35, 08)
 } */
 
-/* .container-fluid {
-    margin-left: 0;
-    margin-right: 0;
-} */
-
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 body {
     background: url(../images/oldWorldBkgd.png) no-repeat center center fixed;
@@ -20,41 +15,35 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-.nav-item {
+li.nav-item {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    padding: .5rem;
+    padding: .6rem;
 }
 
 .nav-link {
     display: inline;
 }
 
-/* .navbar-light {
-    background-color: rgb(82, 35, 08);
+.navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-} */
-
-a:hover {
-    color: rgba(255, 255, 255, 0.6);
+    
 }
 
-a:focus {
-    color: rgb(146, 132, 100);
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.3);
 }
 
-a:active {
-    color: black;
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: white;
 }
 
 .bg-dark {
     background-color: rgb(82, 35, 08) !important;
-}
-
-.row.nameAndSub {
-    position: relative; 
 }
 
 .myName {
@@ -73,6 +62,7 @@ a:active {
     text-align: left;
     padding: 1rem;
     align-self: flex-end;
+    
 }
 
 p {
@@ -88,10 +78,10 @@ img {
     
 }
 
-.myImg {
+/* .myImg {
     position: relative;
     text-align: right;
-}
+} */
 
 .myTitles {
     font-weight: 600;
@@ -106,15 +96,47 @@ ul.myTitles li:before {
 }
 
 .img-fluid {
-    width: 75%;
+    width: 80%;
 }
 
-.red {
-    background-color: red;
-    
+h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(82, 35, 08);
+    padding-bottom: .5rem;
 }
 
-.blue {
-    background-color: blue;
-  
+.socialSites{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(82, 35, 08);
+    line-height: 160%;
+}
+
+ul.myLinks {
+    list-style: disc;
+    padding-left: .5rem;
+    margin-left: 10px;
+    color: rgb(82, 35, 08);
+}
+
+ul.myPortfolios {
+    list-style: disc;
+    padding-left: 2rem;
+    margin-left: 10px;
+    color: rgb(82, 35, 08);
+}
+
+h3.portfolios {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(82, 35, 08);
+    padding: 1rem 0 .5rem 0;
+}
+
+.portfolioSites{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(82, 35, 08);
+    line-height: 180%;
 }

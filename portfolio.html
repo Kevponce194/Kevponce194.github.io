@@ -12,98 +12,118 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/ko_styleTestImgCol.css">
+    <link rel="stylesheet" href="assets/css/ko_stylePortfolio.css">
     <script src="https://kit.fontawesome.com/49ad89db7d.js" crossorigin="anonymous"></script>
-    <title>An Intro Test</title>
+    <title>An Introduction to Kevin O'Neill</title>
 </head>
+
+<!-- this body contains the background image via ko_style.css -->
 
 <body>
 
-    <!-- Newer Navbar tests -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="#">Left</a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="//codeply.com">Codeply</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="../Kevponce194.github.io/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="../Kevponce194.github.io/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
+
+        <!-- Navbar button -->
         <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#"></a>
+            <!-- <a class="navbar-brand mx-auto" href="#"></a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-
     </nav>
 
-    <!-- Older Navbar tests -->
-    <!-- <nav class="navbar navbar-light">
-        <a class="navbar-light" href="#">Home</a>
-        <a class="navbar-light" href="#">Portfolio</a>
-        <a class="navbar-light" href="#">Contact</a>
-    </nav> -->
-
-
+    <!-- main content container -->
     <div class="container-fluid">
 
-        <div class="container nameRow">
-            <div class="div row nameRow">
+        <!-- Name and Subhead row -->
+        <div class="container">
+            <div class="div row">
                 <div class="col-sm-5 col-md-5 col-lg-4 myName">Kevin O'Neill</div>
-                <div class="col-sm-7 col-md-7 col-lg-8 mySubhead">A few words about me...</div>
+                <div class="col-sm-7 col-md-7 col-lg-8 mySubhead">... the experiences I can offer you ...</div>
             </div>
 
             <div class="div row">
-                <div class="col-sm-5 col-md-5 col-lg-4 myImg">
-                    <div class="div row">
-                    <div class="col-5 col-sm-0   blue "></div>
-                    <div class="col-7 col-sm-12 red ">
-                        <img class="rounded-circle img-fluid" src="../Kevponce194.github.io/assets/images/Portrait3.jpg"
-                            alt="Kevs Photo">
-                    </div>
-                </div>
 
-                </div>
-                <div class="col-sm-7 col-md-7 col-lg-8">
-                    <ul class="myTitles pt-3 pt-sm-0">
-                        <li>PREPRESS TECHNICIAN</li>
-                        <li>PRINT MANAGER</li>
-                        <li>WEB DEVELOPER</li>
-                        <li>HISTORY BUFF</li>
+                <!-- 1st Column Printing Portfolio img-->
+                <div class="col-sm-4 ">
+                    <img class=" img-fluid" src="../Kevponce194.github.io/assets/images/DSC00994.jpg" alt="Kevs Photo">
+
+                    <!-- 1st Column Printing Portfolio links-->
+
+                    <h3 class="portfolios">PRINTING Portfolio</h3>
+                    <ul class="myPortfolios">
+                        <li>
+                            <a class="portfolioSites" href="http://www.linkedin.com/in/kevinoneill194"
+                                target="blank">Vehicle Graphics</a>
+                        </li>
+                        <li>
+                            <a class="portfolioSites" href="https://www.facebook.com/profile.php?id=100054510503623"
+                                target="blank">Cosmetics</a>
+                        </li>
+                        <li>
+                            <a class="portfolioSites" href="https://www.facebook.com/profile.php?id=100054510503623"
+                                target="blank">Displays</a>
+                        </li>
+                        
                     </ul>
+                    <br>
+                </div>
 
-                    <p>I am an experienced graphics professional with a demonstrated history working in the offset
-                        and
-                        wide-format printing industry. Expert in Printing and Prepress. Expert in Adobe Creative
-                        Suite
-                        page design and image manipulation including color correction, and retouching. Takes an "own
-                        it" attitude in Customer Service and getting the job done right. </p>
+                <!-- 2nd Column Web Portfolio links-->
+                <div class="col-sm-4 ">
+                    <img class="  img-fluid" src="../Kevponce194.github.io/assets/images/MosaicSite.png"
+                        alt="Kevs Photo">
+                    <h3 class="portfolios">WEB DEV Portfolio</h3>
+                    <ul class="myPortfolios">
+                        <li>
+                            <a class="portfolioSites" href="http://www.linkedin.com/in/kevinoneill194"
+                                target="blank">PGM site</a>
+                        </li>
+                        <li>
+                            <a class="portfolioSites" href="https://www.facebook.com/profile.php?id=100054510503623"
+                                target="blank">Mosaic194 Site</a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+
+                <!-- 3rd Column Web Portfolio links-->
+                <div class="col-sm-4 ">
+                    <img class="  img-fluid portfolio" src="../Kevponce194.github.io/assets/images/Manuscripts.jpg"
+                        alt="Kevs Photo">
+
+                    <h3 class="portfolios">Beyond Work</h3>
+                    <ul class="myPortfolios">
+                        <li>
+                            <a class="portfolioSites" href="http://www.linkedin.com/in/kevinoneill194"
+                                target="blank">Freemasonry/Charity</a>
+                        </li>
+                        <li>
+                            <a class="portfolioSites" href="https://www.facebook.com/profile.php?id=100054510503623"
+                                target="blank">Fascinating Books</a>
+                        </li>
+                    </ul>
+                    <br>
                 </div>
             </div>
 
-            <div class="div row">
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
