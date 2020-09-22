@@ -2,9 +2,9 @@
     color: rgb(82, 35, 08)
 } */
 
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 body {
     background: url(../images/oldWorldBkgd.png) no-repeat center center fixed;
@@ -96,4 +96,25 @@ ul.myTitles li:before {
 
 .img-fluid {
     width: 75%;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(82, 35, 08);
+    padding-bottom: .5rem;
+}
+
+.socialSites{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(82, 35, 08);
+    line-height: 160%;
+}
+
+ul.myLinks {
+    list-style: disc;
+    padding-left: .5rem;
+    margin-left: 10px;
+    color: rgb(82, 35, 08);
 }
