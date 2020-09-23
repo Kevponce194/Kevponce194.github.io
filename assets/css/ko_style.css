@@ -2,9 +2,9 @@
     color: rgb(82, 35, 08)
 } */
 
-/* * {
+* {
     outline: solid 1px red;
-} */
+}
 
 body {
     background: url(../images/oldWorldBkgd.png) no-repeat center center fixed;
@@ -99,9 +99,9 @@ ul.myTitles li:before {
     width: 75%;
 }
 
-.img-fluid.porfolio {
+/* .img-fluid.porfolio {
     width: 100%;
-}
+} */
 
 h3 {
     font-weight: 600;
@@ -143,4 +143,8 @@ h3.portfolios {
     font-size: 1rem;
     color: rgb(82, 35, 08);
     line-height: 180%;
+}
+
+.myImg{
+    padding:20px;
 }
