@@ -12,13 +12,13 @@ To build a web site to showcase my talent and experience.
   1. index.html
   2. portfolio.html
   3. contact.html
-- [ ] Navbar must be consistent on each page, must contain links to Home/About, Contact, and Portfolio pages.
-- [ ] Must contain your personalized information. (bio, name, images, links to social media, etc.)
+- [ ] Navbar is consistent on each page, and contains links to Home/About, Contact, and Portfolio pages.
+- [ ] Contains personalized information. (bio, name, images, links to social media, etc.)
 - [ ] Responsive layout, Responsive images
-- [ ] Use Bootstrap's grid system (containers, rows, and columns), properly utilize Bootstrap components.
-- [ ] Use an HTML validation service, Must use semantic html.
-- [ ] All links must work.
-- [ ] Images have alt tags (except image in CSS)
+- [ ] Uses Bootstrap's grid system (containers, rows, and columns), properly utilize Bootstrap components.
+- [ ] Validated with an HTML validation service, uses semantic html.
+- [ ] All links work.
+- [ ] Images have sensible alt tags
 - [ ] CSS selectors and properties are efficient
 
 **Additional considerations:**

@@ -1,10 +1,6 @@
-/* .baseBrown {
-    color: rgb(82, 35, 08)
-} */
-
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 body {
     background: url(../images/oldWorldBkgd.png) no-repeat center center fixed;
@@ -13,6 +9,12 @@ body {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Playfair Display', serif;
+}
+
+hr {
+
+    border: 0;
+    border-top: 1px solid rgb(82, 35, 08);
 }
 
 li.nav-item {
@@ -27,7 +29,7 @@ li.nav-item {
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.6);
-    
+
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -62,7 +64,7 @@ li.nav-item {
     text-align: left;
     padding: 1rem;
     align-self: flex-end;
-    
+
 }
 
 p {
@@ -74,14 +76,9 @@ p {
 }
 
 img {
-    border: solid 3px  rgb(82, 35, 08) ;
-    
-}
+    border: solid 3px rgb(82, 35, 08);
 
-/* .myImg {
-    position: relative;
-    text-align: right;
-} */
+}
 
 .myTitles {
     font-weight: 600;
@@ -99,10 +96,6 @@ ul.myTitles li:before {
     width: 75%;
 }
 
-/* .img-fluid.porfolio {
-    width: 100%;
-} */
-
 h3 {
     font-weight: 600;
     font-size: 1.25rem;
@@ -110,7 +103,7 @@ h3 {
     padding-bottom: .5rem;
 }
 
-.socialSites{
+.socialSites {
     font-weight: 500;
     font-size: 1rem;
     color: rgb(82, 35, 08);
@@ -138,13 +131,62 @@ h3.portfolios {
     padding: 1rem 0 .5rem 0;
 }
 
-.portfolioSites{
+.portfolioSites {
     font-weight: 500;
     font-size: 1rem;
     color: rgb(82, 35, 08);
     line-height: 180%;
 }
 
-.myImg{
-    padding:20px;
+.myImg {
+    padding: 20px;
+}
+
+label {
+    padding: .5em 0 .25rem 0;
+    color: rgb(82, 35, 08);
+}
+
+.btn-primary {
+    background-color: rgb(82, 35, 08);
+    border-color: rgb(82, 35, 08);
+    margin-bottom: 1rem;
+}
+
+.form-text {
+    font-size: 75%;
+    margin-top: .35rem;
+}
+
+.form-control {
+    border: 1px solid rgb(82, 35, 08);
+}
+
+.text-muted {
+    color: rgb(82, 35, 08) !important;
+}
+
+p.contactText {
+    font-size: 1rem;
+    margin: .5rem 0 1rem 0;
+    padding: 0 0 0 0;
+}
+
+p.contactText2 {
+    font-style: italic;
+    font-size: 1rem;
+    margin: .5rem 0 1rem 0;
+    padding: 0 0 0 0;
+}
+
+p.contactText3 {
+    font-size: 1rem;
+    font-size: 1rem;
+    line-height: 125%;
+    /* margin: .5rem 0 1rem 0; */
+    padding: 0 0 0 0;
+}
+
+h3.contactAddressSubhead {
+    padding-bottom: .25rem;
 }
