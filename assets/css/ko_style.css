@@ -52,8 +52,8 @@ li.nav-item {
     font-weight: 800;
     font-size: 2.75rem;
     color: rgb(82, 35, 08);
-    text-align: right;
-    padding: 1rem 1rem 1rem 0;
+    /* text-align: right; */
+    /* padding: 1rem 1rem 1rem 0; */
     align-self: flex-end;
 }
 
@@ -61,8 +61,8 @@ li.nav-item {
     font-weight: 800;
     font-size: 1.75rem;
     color: rgb(82, 35, 08);
-    text-align: left;
-    padding: 1rem;
+    /* text-align: left; */
+    /* padding: 1rem; */
     align-self: flex-end;
 
 }
@@ -138,9 +138,9 @@ h3.portfolios {
     line-height: 180%;
 }
 
-.myImg {
+/* .myImg {
     padding: 20px;
-}
+} */
 
 label {
     padding: .5em 0 .25rem 0;
