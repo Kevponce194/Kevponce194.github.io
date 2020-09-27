@@ -10,6 +10,7 @@ body {
     background-size: cover;
     /* -o-background-size: cover; Not sure what this is */
     font-family: 'Playfair Display', serif;
+    padding-top: 3rem;
 }
 
 /*  Navigation CSS */
